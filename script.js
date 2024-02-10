@@ -8,9 +8,9 @@ function fibonacci(num) {
 	 	
 	 }
 	else{
-		return Fibonacci(num-1)+Fibonacci(num-2);
+		return fibonacci(num-1)+fibonacci(num-2);
 	}
 	
 	}
 
-module.exports = fibonacci(n);
+module.exports = fibonacci;

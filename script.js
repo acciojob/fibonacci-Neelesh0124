@@ -3,7 +3,7 @@ function fibonacci(num) {
   let a = 0;
   let b = 1;
   let fib;
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < num; i++) {
     fib = a + b;
     a = b;
     b = fib;

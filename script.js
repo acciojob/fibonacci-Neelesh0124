@@ -12,5 +12,6 @@ function fibonacci(num) {
 	}
 	
 	}
+console.log(fibonacci(n))
 
 module.exports = fibonacci;

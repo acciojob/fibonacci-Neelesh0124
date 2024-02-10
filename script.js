@@ -1,12 +1,10 @@
 function fibonacci(num) {
 // your code here
-	 let a=0;
-	 let b=1;
 	 if (num==1) {
-		 return a;
+		 return 0;
 	 }
 	 else if (num==2) {
-		 return b;
+		 return 1;
 	 	
 	 }
 	else{

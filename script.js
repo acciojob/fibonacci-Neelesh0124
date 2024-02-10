@@ -1,7 +1,7 @@
 function fibonacci(num) {
 // your code here
 	 let a=0;
-	 let b=a+1;
+	 let b=1;
 	 if (num==1) {
 		 return a;
 	 }
@@ -15,4 +15,4 @@ function fibonacci(num) {
 	
 	}
 
-module.exports = fibonacci;
+module.exports = fibonacci(n);

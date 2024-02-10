@@ -7,11 +7,8 @@ function fibonacci(num) {
 		 return 1;
 	 	
 	 }
-	else{
+	else {
 		return fibonacci(num-1)+fibonacci(num-2);
 	}
-	
-	}
-console.log(fibonacci(n))
-
+}
 module.exports = fibonacci;

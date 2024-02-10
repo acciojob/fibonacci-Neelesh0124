@@ -1,14 +1,13 @@
 function fibonacci(num) {
 // your code here
-	 if (num==1) {
-		 return 0;
-	 }
-	 else if (num==2) {
-		 return 1;
-	 	
-	 }
-	else {
-		return fibonacci(num-1)+fibonacci(num-2);
-	}
+  let a = 0;
+  let b = 1;
+  let fib;
+  for (let i = 0; i < n; i++) {
+    fib = a + b;
+    a = b;
+    b = fib;
+  }
+  return a;
 }
 module.exports = fibonacci;

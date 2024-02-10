@@ -10,10 +10,7 @@ function fibonacci(num) {
 	 	
 	 }
 	else{
-		let c= a+b;
-		a=b;
-		b=c;
-		return c;
+		return Fibonacci(num-1)+Fibonacci(num-2);
 	}
 	
 	}

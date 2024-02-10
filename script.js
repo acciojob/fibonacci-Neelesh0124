@@ -4,17 +4,19 @@ function fibonacci(num) {
   let b = 1;
   let fib;
 	if (num==0) {
-		  return 0;
+		  return a;
 	 }
 	  else if (num==1) {
-		  return 1;
+		  return b;
 	  }
-       for (let i = 2; i < num; i++) { 
+      else {
+		   for (let i = 2; i < num; i++) { 
 	   fib = a + b;
        a = b;
        b = fib;
   }
       return fib;
+	  }
  }
 	
 	

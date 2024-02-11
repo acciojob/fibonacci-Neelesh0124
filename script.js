@@ -10,7 +10,7 @@ function fibonacci(num) {
 		  return b;
 	  }
       else {
-		   for (let i = 3; i < num; i++) { 
+		   for (let i = 3; i <= num; i++) { 
 	        fib = a + b;
             a = b;
             b = fib;
@@ -18,7 +18,5 @@ function fibonacci(num) {
       return fib;
 	  }
  }
-	
-	
-	
+
 module.exports = fibonacci;

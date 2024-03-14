@@ -6,11 +6,9 @@ function fibonacci(num) {
 	if (num==1) {
 		  return a;
 	 }
-	  else if (num==2) {
-		  return b;
-	  }
+	  
       else {
-		   for (let i = 3; i <= num; i++) { 
+		   for (let i = 2; i <= num; i++) { 
 	        fib = a + b;
             a = b;
             b = fib;

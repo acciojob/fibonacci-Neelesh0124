@@ -2,7 +2,7 @@ function fibonacci(num) {
 // your code here
   let a = 0;
   let b = 1;
-  let fib;
+  let c;
 	if (num==1) {
 		  return a;
 	 }
@@ -11,11 +11,11 @@ function fibonacci(num) {
 	  }
       else {
 		   for (let i = 3; i <= num; i++) { 
-	        fib = a + b;
+	        c = a + b;
             a = b;
-            b = fib;
+            b = c;
   }
-      return fib;
+      return c;
 	  }
  }
 
